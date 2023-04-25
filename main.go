@@ -40,7 +40,7 @@ type kubeconfig struct {
 
 func main() {
 	if len(os.Args) != 3 {
-		fmt.Println("Usage: concat-kubeconfig <first-file> <second-file>")
+		fmt.Println("Usage: kubeconfig-merger <first-file> <second-file>")
 		os.Exit(1)
 	}
 
