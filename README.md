@@ -56,6 +56,8 @@ For example, if you have two kubeconfig files named `kubeconfig-1.yaml` and `kub
 
 The concatenated kubeconfig file will be saved as `combined-kubeconfig.yaml` in the current directory.
 
+[![asciicast](https://asciinema.org/a/5Myq4ZzzvYo9uSuhx7LgMMPEH.svg)](https://asciinema.org/a/5Myq4ZzzvYo9uSuhx7LgMMPEH)
+
 ## Purpose
 
 The purpose of kubeconfig-merger is to simplify management of multiple Kubernetes clusters by allowing you to use a single kubeconfig file to access them all. By concatenating multiple kubeconfig files into a single file, you can avoid the need to switch between different kubeconfig files when working with different clusters. This can make it easier to manage and automate Kubernetes operations.
