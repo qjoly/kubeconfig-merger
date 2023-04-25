@@ -61,3 +61,6 @@ The concatenated kubeconfig file will be saved as `combined-kubeconfig.yaml` in 
 ## Purpose
 
 The purpose of kubeconfig-merger is to simplify management of multiple Kubernetes clusters by allowing you to use a single kubeconfig file to access them all. By concatenating multiple kubeconfig files into a single file, you can avoid the need to switch between different kubeconfig files when working with different clusters. This can make it easier to manage and automate Kubernetes operations.
+
+![visit counter](https://visitor-badge.deta.dev/badge?page_id=qjoly.kubeconfigmerger)
+
